@@ -9,7 +9,6 @@ video_chat_router = Router(name='start')
         types.ContentType.VIDEO_CHAT_SCHEDULED,
         types.ContentType.VIDEO_CHAT_STARTED,
         types.ContentType.VIDEO_CHAT_ENDED,
-        types.ContentType.VIDEO_NOTE,
     }),
 )
 async def delete_video_chat_messages(message: types.Message):
